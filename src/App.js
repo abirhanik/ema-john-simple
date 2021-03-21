@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-import Practice from './components/Header/Practice';
+import Products from './components/Products/Products';
+import Shop from './components/Shop/Shop';
+
 
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Practice></Practice>
+      <Shop></Shop>
+      
     </div>
   );
 }
